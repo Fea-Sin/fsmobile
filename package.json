@@ -1,0 +1,50 @@
+{
+  "name": "fsmobile",
+  "version": "1.0.0",
+  "description": "full stack node-react project",
+  "private": true,
+  "scripts": {
+    "start": "egg-scripts start --daemon --env prod",
+    "stop": "egg-scripts stop",
+    "dev": "egg-bin dev",
+    "debug": "egg-bin debug",
+    "build": "npm run umi:build",
+    "umi:dev": "umi dev",
+    "umi:build": "UMI_ENV=prod CI=true umi build",
+    "test": "egg-bin test",
+    "autod": "autod"
+  },
+  "keywords": [
+    "full stack",
+    "egg",
+    "react",
+    "umi",
+    "antd-mobile"
+  ],
+  "dependencies": {
+    "antd-mobile": "^2.2.14",
+    "babel-plugin-dva-hmr": "^0.4.2",
+    "babel-plugin-import": "^1.12.0",
+    "egg": "^2.23.0",
+    "egg-mysql": "^3.0.0",
+    "egg-scripts": "^2.11.0",
+    "egg-view-assets": "^1.3.0",
+    "egg-view-nunjucks": "^2.2.0",
+    "react": "^16.8.6",
+    "react-sticky": "^6.0.3",
+    "umi": "^2.8.14",
+    "umi-plugin-ecma5-validator": "^0.1.0",
+    "umi-plugin-react": "^1.9.13"
+  },
+  "devDependencies": {
+    "autod": "^3.1.0",
+    "autod-egg": "^1.1.0",
+    "egg-bin": "^4.13.0",
+    "egg-mock": "^3.23.1"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "author": "feasin",
+  "license": "MIT"
+}
