@@ -17,6 +17,16 @@ const routes = [
       : require('../../layouts/index.js').default,
     routes: [
       {
+        path: '/discover',
+        exact: true,
+        component: __IS_BROWSER
+          ? dynamic({
+              loader: () =>
+                import(/* webpackChunkName: "p__discover__index" */ '../discover/index.js'),
+            })
+          : require('../discover/index.js').default,
+      },
+      {
         path: '/home',
         exact: true,
         component: __IS_BROWSER
@@ -35,6 +45,26 @@ const routes = [
                 import(/* webpackChunkName: "p__index" */ '../index.js'),
             })
           : require('../index.js').default,
+      },
+      {
+        path: '/order',
+        exact: true,
+        component: __IS_BROWSER
+          ? dynamic({
+              loader: () =>
+                import(/* webpackChunkName: "p__order__index" */ '../order/index.js'),
+            })
+          : require('../order/index.js').default,
+      },
+      {
+        path: '/profile',
+        exact: true,
+        component: __IS_BROWSER
+          ? dynamic({
+              loader: () =>
+                import(/* webpackChunkName: "p__profile__index" */ '../profile/index.js'),
+            })
+          : require('../profile/index.js').default,
       },
       {
         component: () =>

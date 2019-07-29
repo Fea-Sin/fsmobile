@@ -1,0 +1,19 @@
+{
+  "vendors.css": "vendors.319ec7be.chunk.css",
+  "vendors.js": "vendors.58b5f3f8.async.js",
+  "layouts__index.css": "layouts__index.e7adcf45.chunk.css",
+  "layouts__index.js": "layouts__index.7e206b17.async.js",
+  "p__discover__index.css": "p__discover__index.903d1124.chunk.css",
+  "p__discover__index.js": "p__discover__index.c296122e.async.js",
+  "p__home__index.css": "p__home__index.4210c22c.chunk.css",
+  "p__home__index.js": "p__home__index.756ff0ca.async.js",
+  "p__index.css": "p__index.4210c22c.chunk.css",
+  "p__index.js": "p__index.4853328e.async.js",
+  "p__order__index.css": "p__order__index.53110bf6.chunk.css",
+  "p__order__index.js": "p__order__index.c6c9938d.async.js",
+  "p__profile__index.css": "p__profile__index.d4ce4301.chunk.css",
+  "p__profile__index.js": "p__profile__index.94e2e751.async.js",
+  "umi.js": "umi.19a512e9.js",
+  "static/4904.jpg_wh1200.jpg": "static/4904.jpg_wh1200.820a2318.jpg",
+  "static/8028.jpg_wh1200.jpg": "static/8028.jpg_wh1200.ba2724ee.jpg"
+}

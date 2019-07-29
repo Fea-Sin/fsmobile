@@ -3,6 +3,6 @@ export default {
   publicPath: '',
   outputPath: '../public',
   manifest: {
-    fileNames: '../../config/manifest.json',
+    fileName: '../../config/manifest.json',
   }
 }

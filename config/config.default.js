@@ -38,7 +38,7 @@ module.exports = appInfo => {
   // egg listen port, and start the application 
   config.cluster = {
     listen: {
-      port: 7001,
+      port: 7003,
     }
   }
 
